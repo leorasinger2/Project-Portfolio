@@ -29,8 +29,9 @@
             <div class="hidden md:flex space-x-6">
                 <a href="#about" class="scroll-link text-gray-600 hover:text-pink-600">About</a>
                 <a href="#projects" class="scroll-link text-gray-600 hover:text-pink-600">Projects</a>
+                <a href="#femtech" class="scroll-link text-gray-600 hover:text-pink-600">FemTech</a>
+                <a href="#awards" class="scroll-link text-gray-600 hover:text-pink-600">Awards</a>
                 <a href="#skills" class="scroll-link text-gray-600 hover:text-pink-600">Skills</a>
-                <a href="#volunteer" class="scroll-link text-gray-600 hover:text-pink-600">Volunteer</a>
                 <a href="#interests" class="scroll-link text-gray-600 hover:text-pink-600">Interests</a>
                 <a href="#contact" class="scroll-link text-gray-600 hover:text-pink-600">Contact</a>
             </div>
@@ -41,7 +42,7 @@
     <main class="container mx-auto px-6 py-12">
 
         <!-- About Section -->
-        <section id="about" class="py-16 md:py-24">
+        <section id="about" class="py-12 md:py-16">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-pink-900 mb-4">
                     Biomedical Engineering Design Portfolio
@@ -53,13 +54,17 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="py-16 md:py-24 bg-white rounded-xl shadow-lg">
+        <section id="projects" class="py-12 md:py-16 bg-white rounded-xl shadow-lg">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-pink-900 mb-12">Featured Projects</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-
+                    
                     <!-- Project Card 1: EMG Activated Crochet Hook -->
                     <div class="bg-gray-100 rounded-lg p-6 flex flex-col items-start shadow-sm hover:shadow-lg transition-shadow">
+                        <!-- Add your image or video here -->
+                        <video src="https://drive.google.com/file/d/1zfxb9XXtdrT5A_Ykpw_1FRgzCOhwetgD/view?usp=sharing" controls class="w-full rounded-lg mb-4"></video>
+                        <!-- End of media section -->
+                        
                         <div class="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mb-4">
                             <span class="text-3xl">🦾</span>
                         </div>
@@ -70,9 +75,13 @@
                             <li>Utilized an iterative design-build-test methodology to continually improve the design.</li>
                         </ul>
                     </div>
-
+                    
                     <!-- Project Card 2: Motion & Force Capture Stick -->
                     <div class="bg-gray-100 rounded-lg p-6 flex flex-col items-start shadow-sm hover:shadow-lg transition-shadow">
+                        <!-- Add your image or video here -->
+                        <img src="https://drive.google.com/file/d/1JcYmY_ouTSRlUPGbQ9AhbNe7V6fGhPdK/view?usp=sharing" alt="Motion & Force Capture Stick Image" class="w-full rounded-lg mb-4">
+                        <!-- End of media section -->
+                        
                         <div class="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mb-4">
                             <span class="text-3xl">📈</span>
                         </div>
@@ -113,9 +122,44 @@
                 </div>
             </div>
         </section>
+
+        <!-- New Section: FemTech -->
+        <section id="femtech" class="py-12 md:py-16 bg-white rounded-xl shadow-lg">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl font-bold text-center text-pink-900 mb-12">FemTech</h2>
+                <div class="grid grid-cols-1 gap-8">
+                    <!-- FemTech Innovation Challenge Card -->
+                    <div class="bg-gray-100 rounded-lg p-6 flex flex-col items-start shadow-sm hover:shadow-lg transition-shadow">
+                        <img src="https://drive.google.com/file/d/1gYo0_zcXKUbChAELo0qz54oblWIy7BuJ/view?usp=sharing" alt="FemTech Innovation Challenge Picture" class="w-full rounded-lg mb-4">
+                        <div class="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mb-4">
+                            <span class="text-3xl">💡</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">FemTech Innovation Challenge</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            I had the opportunity to participate in the University of Waterloo FemTech Innovation Challenge. My team designed a website to aid women aged 18-25 in getting diagnosed with PCOS, as the diagnosis process currently takes an average of 4.3 years in Canada. It was an incredible learning opportunity that provided valuable experience in entrepreneurship and women's health research.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="py-8 md:py-12">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center text-pink-900 mb-8">Awards and Distinctions</h2>
+                <div class="flex flex-wrap justify-center gap-4 text-center">
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">President’s Research Award</span>
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">NSERC USRA Scholarship</span>
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">First in Class Engineering Scholarship</span>
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">Term Dean’s Honours List (recurring)</span>
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">President’s Scholarship of Distinction</span>
+                    <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">Shad 2021 Alumna</span>
+                </div>
+            </div>
+        </section>
         
         <!-- Skills Section -->
-        <section id="skills" class="py-16 md:py-24">
+        <section id="skills" class="py-8 md:py-12">
             <div class="max-w-4xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-pink-900 mb-8">Skills & Tools</h2>
                 <div class="flex flex-wrap justify-center gap-4 text-center">
@@ -132,31 +176,15 @@
             </div>
         </section>
 
-        <!-- Volunteer Section -->
-        <section id="volunteer" class="py-16 md:py-24 bg-white rounded-xl shadow-lg">
-            <div class="max-w-5xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-pink-900 mb-8">Volunteer & Leadership Experience</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                    <div class="bg-gray-100 rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold mb-2">Engineering Play Stage Manager</h3>
-                        <p class="text-gray-600">Managed a crew of 3 and handled budget, scheduling, and prop acquisition to ensure a smooth performance.</p>
-                    </div>
-                    <div class="bg-gray-100 rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold mb-2">Assistant Dance Teacher</h3>
-                        <p class="text-gray-600">Coached over 120 children for dance exams and performances at Studio X Dance Academy.</p>
-                    </div>
-                    <div class="bg-gray-100 rounded-lg p-6 shadow-sm hover:shadow-lg transition-shadow">
-                        <h3 class="text-xl font-semibold mb-2">Engineering Musical Choreographer</h3>
-                        <p class="text-gray-600">Developed and taught choreography for a university musical at the request of the directors.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Interests Section -->
-        <section id="interests" class="py-16 md:py-24">
-            <div class="max-w-4xl mx-auto">
+        <section id="interests" class="py-12 md:py-16 bg-white rounded-xl shadow-lg">
+            <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-3xl font-bold text-center text-pink-900 mb-8">Interests</h2>
+                <!-- Two placeholder images for interests -->
+                <div class="flex flex-col md:flex-row justify-center gap-8 mb-8">
+                    <img src="https://drive.google.com/file/d/1ZvoeICR4xutazYrPJ66t4o2YURtSKchw/view?usp=sharing" alt="Image showcasing Crochet Snoopy" class="rounded-lg shadow-sm">
+                    <img src="https://drive.google.com/file/d/1N9yU69ASZ7MtXP8TXCp0VQgl9uy7DhhO/view?usp=sharing" alt="Image showcasing Aerial Silks" class="rounded-lg shadow-sm">
+                </div>
                 <div class="flex flex-wrap justify-center gap-4 text-center">
                     <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">Crochet</span>
                     <span class="bg-gray-200 text-pink-900 px-4 py-2 rounded-full font-medium">Ballet</span>
@@ -171,10 +199,10 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="py-16 md:py-24 bg-white rounded-xl shadow-lg text-center">
+        <section id="contact" class="py-12 md:py-16 bg-white rounded-xl shadow-lg text-center">
             <h2 class="text-3xl font-bold text-pink-900 mb-4">Get in Touch</h2>
             <p class="text-lg text-gray-600 mb-8">
-                I'm currently seeking new opportunities. Feel free to connect with me.
+                I'm currently seeking new opportunities. Please feel free to connect with me!
             </p>
             <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-8">
                 <div class="text-lg">
